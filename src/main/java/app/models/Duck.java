@@ -6,9 +6,10 @@ package app.models;
  */
 public class Duck extends Animal {
     private static final String DUCK_SONG_LYRICS = "Quack Quack";
+    private static final String DUCK_NAME = "Duck";
 
-    public Duck(String name) {
-        super(name);
+    public Duck() {
+        super(DUCK_NAME);
     }
 
     /**

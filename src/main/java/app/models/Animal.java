@@ -12,7 +12,7 @@ public abstract class Animal {
      *
      * @param name String value to be set as the animal's name.
      */
-    Animal(String name) {
+    protected Animal(String name) {
         this.setName(name);
     }
 
