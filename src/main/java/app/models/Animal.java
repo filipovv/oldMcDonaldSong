@@ -2,7 +2,7 @@ package app.models;
 
 /**
  * Animal abstract class holds base information about all child
- * classes witch are meant to inherit this class.
+ * classes which are meant to inherit this class.
  */
 public abstract class Animal {
     private String name;
